@@ -65,7 +65,7 @@ function calcularResultado() {
 
   }
 
-
+// Cuestionario 2
   function calcularResultado2() {
     var puntuacion = 0;
 
@@ -80,7 +80,7 @@ function calcularResultado() {
     // Pregunta 2
     var q2 = document.getElementsByName("q2");
     for (var j = 0; j < q2.length; j++) {
-      if (q2[j].checked && q2[j].value === "a") {
+      if (q2[j].checked && q2[j].value === "b") {
         puntuacion++;
       }
     }
@@ -88,7 +88,7 @@ function calcularResultado() {
     // Pregunta 3
     var q3 = document.getElementsByName("q3");
     for (var j = 0; j < q3.length; j++) {
-      if (q3[j].checked && q3[j].value === "c") {
+      if (q3[j].checked && q3[j].value === "a") {
         puntuacion++;
       }
     }
@@ -96,7 +96,7 @@ function calcularResultado() {
     // Pregunta 4
     var q4 = document.getElementsByName("q4");
     for (var j = 0; j < q4.length; j++) {
-      if (q4[j].checked && q4[j].value === "d") {
+      if (q4[j].checked && q4[j].value === "a") {
         puntuacion++;
       }
     }
@@ -104,7 +104,7 @@ function calcularResultado() {
     // Pregunta 5
     var q5 = document.getElementsByName("q5");
     for (var j = 0; j < q3.length; j++) {
-      if (q5[j].checked && q5[j].value === "a") {
+      if (q5[j].checked && q5[j].value === "c") {
         puntuacion++;
       }
     }
@@ -112,7 +112,7 @@ function calcularResultado() {
     // Pregunta 6
     var q6 = document.getElementsByName("q6");
     for (var j = 0; j < q6.length; j++) {
-      if (q6[j].checked && q6[j].value === "d") {
+      if (q6[j].checked && q6[j].value === "b") {
         puntuacion++;
       }
     }
@@ -120,7 +120,7 @@ function calcularResultado() {
     // Pregunta 7
     var q7 = document.getElementsByName("q7");
     for (var j = 0; j < q7.length; j++) {
-      if (q7[j].checked && q7[j].value === "b") {
+      if (q7[j].checked && q7[j].value === "d") {
         puntuacion++;
       }
     }

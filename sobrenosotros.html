@@ -1,5 +1,30 @@
 <!DOCTYPE html><html lang="en">
+<style>
+    .team-members {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
 
+    .team-member {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .member-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .member-name {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
 <head>
 
     <meta charset="utf-8">
@@ -59,7 +84,7 @@
                 <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
                     <div class="row flex-nowrap align-items-center justify-content-end">
                         <div class="col header-fixed-col d-none d-xl-block col-static">
-                            <!-- Begin main menu -->
+                            <!--  main menu web-->
 <nav class="main-mnu">
     <ul class="main-mnu-list">
         <li>
@@ -78,7 +103,7 @@
             </a>
         </li>
     </ul>
-</nav><!-- End main menu -->
+</nav><!-- main menu web-->
                         </div>
                     </div>
                 </div>
@@ -95,7 +120,7 @@
     </nav>
 </header>
 
-			<!-- Begin bread crumbs -->
+			<!-- Indice -->
 			<nav class="bread-crumbs">
 				<div class="container">
 					<div class="row">
@@ -110,7 +135,7 @@
 						</div>
 					</div>
 				</div>
-			</nav><!-- End bread crumbs -->
+			</nav><!-- Indice -->
 
 			<div class="section">
 				<div class="container">
@@ -130,12 +155,36 @@
 					</div>
 				</div>
 			</div>
+            <div class="section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                        <div class="team-members">
+                            <div class="team-member">
+                                <img src="ruta_imagen_1" alt="Miembro 1" class="member-image">
+                                <p class="member-name">Miembro 1</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="ruta_imagen_2" alt="Miembro 2" class="member-image">
+                                <p class="member-name">Miembro 2</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="ruta_imagen_3" alt="Miembro 3" class="member-image">
+                                <p class="member-name">Miembro 3</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="ruta_imagen_4" alt="Miembro 4" class="member-image">
+                                <p class="member-name">Miembro 4</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
 		</div>
-
 		<div class="bff">
 </div>
 
-<!-- Begin footer -->
 <footer class="footer footer-minimal">
     <div class="footer-main">
         <div class="container">
@@ -169,9 +218,9 @@
             </div>
         </div>
     </div>
-</footer><!-- End footer -->
+</footer>
 
-	</main><!-- End main -->
+	</main><!-- Fin menu -->
 
 	<script src="assets/libs/jquery/jquery.min.js"></script>
 <script src="assets/libs/lozad/lozad.min.js"></script>
@@ -181,4 +230,5 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/forms.js"></script>
 	
-</body></html>
+</body>
+</html>
